@@ -1,4 +1,97 @@
-body(
+body{
     margin: 0;
-    background-color:
-)
+    background-color: rgb(169, 165, 167);
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+header{
+    padding: 20px 0;
+    background-color: rgb(161, 94, 130);
+    display: flex;
+}
+.img-container{
+    background-color: rgb(168, 135, 157);
+    padding-left: 35px;
+    padding: 8px;
+    border-top-right-radius: 110px;
+    border-bottom-right-radius: 110px;
+}
+.title-container{
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.title-container h1{
+    color:rgb(24, 22, 21);
+}
+.title-container h2{
+    font-size: 25px;
+    font-weight: 500;
+    color:rgb(24, 22, 21);
+    margin-top: 12px;
+}
+.img, .avatar{
+    width: 110px; 
+    height: 110px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+.container{
+    padding: 20px;
+    background-color: rgb(188, 217, 223);
+    display: flex;
+}
+.sider, .content{
+    background-color:  rgb(159, 201, 216);
+    padding: 20px 0;
+    width: 100%;
+}
+.sider{
+    width: calc(40% - 5px);
+    margin-right: 20px;
+}
+.content{
+    flex-grow: 1;
+}
+.tag-fill{
+    background-color:rgb(244, 173, 228);
+    padding: 8px;
+    color:rgb(20, 17, 19);
+    font-size: 14px;
+    display: inline-block;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.sider-content{
+    padding-left: 20px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.tag-content ul {
+    margin: 2px;
+    list-style-type: none;
+    padding: 12px 0;
+}
+.progress-container{
+    width: 80%;
+
+}
+.progress-title{
+    text-transform: uppercase;
+    font-size: 0.8px 0;
+}
+.progress-wrap{
+    width: 100%;
+    height: 10px;
+    background-color: black;
+    margin-top: 8px;
+    margin-block-start: 16px;
+}
+.progress{
+    width: 50%;
+    height: 100px;
+    background-color: rgb(100, 127, 163);
+}
