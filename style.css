@@ -11,6 +11,11 @@ header{
     background-color: rgb(161, 94, 130);
     display: flex;
 }
+p{
+    padding: 0 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
 .img-container{
     background-color: rgb(168, 135, 157);
     padding-left: 35px;
@@ -94,4 +99,11 @@ header{
     width: 50%;
     height: 100px;
     background-color: rgb(100, 127, 163);
+}
+.tag{
+    font-size: 18px;
+    color: #212121;
+    padding: 10px 20px;
+    border-left: 14px solid #16a085;
+    margin-bottom: 12px;
 }
